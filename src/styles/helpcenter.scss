@@ -1,0 +1,58 @@
+// Variables for colors
+$primary-color: rgb(234, 5, 5);
+$text-color: #333;
+$background-color: #f8f9fa;
+
+.help-center-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: $text-color;
+
+  h1 {
+    text-align: center;
+    color: $text-color;
+    font-size: 2em;
+  }
+
+  // Navigation styling
+  nav {
+    margin: 20px 0;
+    text-align: center;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+
+      li {
+        a {
+          color: $primary-color;
+          text-decoration: none;
+          font-weight: bold;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  // Section Styling
+  section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: $background-color;
+    border-left: 5px solid $primary-color;
+    border-radius: 8px;
+
+    // Styling for each section title
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}

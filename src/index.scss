@@ -1,0 +1,37 @@
+@import "./styles/variables";
+@import "./styles/items.scss";
+@import "./styles/header.scss";
+@import "./styles/loader.scss";
+@import "./styles/subheader.scss";
+@import "./styles/modal.scss";
+@import "./styles/cart.scss";
+@import "./styles/footer.scss";
+@import "./styles/helpcenter.scss";
+@import "./styles/auth.scss";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  // font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Doppio One', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  line-height: 1.5;
+  margin: 0;
+  position: relative;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img{
+  size: 15rem;  
+}
+small{
+  font-size: small;
+}
